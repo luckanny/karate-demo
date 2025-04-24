@@ -12,9 +12,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <karate.version>1.4.0</karate.version>
-        <testng.version>0.8.0.1</testng.version>
+        <karate.testng.version>0.8.0.1</karate.testng.version>
         <jupiter.version>5.9.3</jupiter.version>
         <jupite.version>1.5.1</jupite.version>
+        <logback.classic.version>1.4.7</logback.classic.version>
         <maven.compiler.version>3.11.0</maven.compiler.version>
         <maven.surefire.version>3.1.2</maven.surefire.version>
 
@@ -48,14 +49,14 @@
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-testng</artifactId>
-            <version>${testng.version}</version>
+            <version>${karate.testng.version}</version>
         </dependency>
 
         <!-- Logging -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.7</version>
+            <version>${logback.classic.version}</version>
             <scope>test</scope>
         </dependency>
 
